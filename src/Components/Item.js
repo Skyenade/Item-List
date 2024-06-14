@@ -14,7 +14,7 @@ const Item = ({ index, item, deleteItem, updateItemName }) => {
 
     const handleSave = () => {
         setIsEditing(false);
-        updateItemName(item.id, editedText); // Call the function to update the note's text
+        updateItemName(item.id, editedText);
     };
 
     return (

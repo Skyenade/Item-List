@@ -5,6 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: rgb(223, 198, 250);
 }
 
 html, body {
@@ -67,5 +68,5 @@ input {
 }
 
 .item{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
